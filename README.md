@@ -10,3 +10,5 @@ npm i -D babel-loader//
 npm i -D babel-preset-stage-1//
 npm i -D react-dom//
 npm start
+
+git pull --allow-unrelated-histories origin master
