@@ -12,7 +12,7 @@ class App extends React.Component {
       <div>
       <h1> My first React Component {2+2}</h1>
       {arr.map( number =>{
-        return <h2>Hello {number}</h2>
+        return <h2 key={number}>Hello {number}</h2>
       })}
       <h2>Hello</h2>
       </div>
